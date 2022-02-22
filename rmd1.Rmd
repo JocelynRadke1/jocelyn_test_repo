@@ -1,0 +1,15 @@
+---
+title: "Untitled"
+author: "Jocelyn Radke"
+date: "2/22/2022"
+output: html_document
+---
+
+## First github rmd file!!!
+```{r}
+library(ggplot2)
+library(gardenR)
+ggplot(garden_harvest, aes(x=vegetable))+
+  geom_bar()
+```
+
